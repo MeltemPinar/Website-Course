@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+.resimSlider {
+  height: 600px;
+}
+body {
+  padding-top: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.about {
+  background-color: #f2f2f2;
+}
+.ayrac {
+  border: none;
+  border-top: 3px solid #1b1d1f;
+  max-width: 250px;
+  margin: 25px auto;
+}
+.ibeyaz {
+  color: #1b1d1f;
+  position: relative;
+  top: -60px;
+  font-size: 50px;
+  border: 10px solid #fff;
+  background-color: #fff;
+}
+.ibeyazz {
+  color: #1b1d1f;
+  position: relative;
+  top: -60px;
+  left: -50px;
+  font-size: 50px;
+  border: 10px solid #fff;
+  background-color: #fff;
+}
+.igri {
+  color: #1b1d1f;
+  position: relative;
+  top: -60px;
+  font-size: 50px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.ekipCard > img:hover {
+  opacity: 0.8;
+}
+.figure:hover {
+  opacity: 0.8;
+}

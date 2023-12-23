@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Course</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar start-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">WebsiteCourse</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#menu">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--slider-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./img/sl2.jpg"
+            class="d-block w-100 resimSlider"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/sl3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/sl1.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Start About area-->
+    <section class="p-5 text-center about">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">About</h2>
+        <hr class="ayrac" />
+        <i class="fa-solid fa-leaf igri"></i>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          blanditiis aut, quas, facilis ipsa sed unde numquam tenetur, suscipit
+          obcaecati asperiores saepe magnam dicta. Totam soluta amet delectus
+          est similique sequi deserunt odio vel tenetur? Et omnis autem
+          provident harum sint consequatur ullam sequi laudantium temporibus
+          aliquam placeat, quasi quas.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad expedita,
+          veniam alias earum nisi quos quidem iure unde nihil repellat
+          aspernatur quis quam molestiae eveniet tenetur officia fugit,
+          perspiciatis error perferendis esse dicta! Molestiae, et? Accusantium
+          nisi perferendis ratione commodi dignissimos delectus adipisci at
+          blanditiis necessitatibus, quasi dolor repellat consequatur?
+        </p>
+      </div>
+    </section>
+    <!--End About area-->
+    <!--Start team area-->
+    <section class="p-5 text-center team">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Team</h2>
+        <hr class="ayrac" />
+        <i class="fa-solid fa-leaf ibeyaz"></i>
+        <div class="card-group">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="card shadow ekipCard">
+              <img src="./img/ekip1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ali Cingöz</h5>
+                <p class="card-text">General Director</p>
+              </div>
+            </div>
+            <div class="card shadow ekipCard">
+              <img src="./img/ekip2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Helen Cor</h5>
+                <p class="card-text">IT manager</p>
+              </div>
+            </div>
+            <div class="card shadow ekipCard">
+              <img src="./img/ekip4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ayshe Shon</h5>
+                <p class="card-text">HR Director</p>
+              </div>
+            </div>
+            <div class="card shadow ekipCard">
+              <img src="./img/ekip5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Selin Can</h5>
+                <p class="card-text">Finance Director</p>
+              </div>
+            </div>
+            <div class="card shadow ekipCard">
+              <img src="./img/ekip6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Basel Shon</h5>
+                <p class="card-text">Management Director</p>
+              </div>
+            </div>
+            <div class="card shadow ekipCard">
+              <img src="./img/ekip7.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Dare Kaher</h5>
+                <p class="card-text">Quality Management Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End team area-->
+    <!--Start gallery area-->
+    <section class="p-5 text-center gallery">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Gallery</h2>
+        <hr class="ayrac" />
+        <i class="fa-solid fa-leaf igri"></i>
+        <div class="row">
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="./img/r1.jpg">
+                <img
+                  src="./img/r1.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="./img/r6.jpg">
+                <img
+                  src="./img/r6.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="./img/r1.jpg">
+                <img
+                  src="./img/r1.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="./img/r6.jpg">
+                <img
+                  src="./img/r6.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--ENd gallery area-->
+    <!--Start form area-->
+    <section class="p-5 text-center contact">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Contact</h2>
+        <hr class="ayrac" />
+        <i class="fa-solid fa-leaf ibeyaz"></i>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label m-auto"
+            >Email address:</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Example textarea</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <button type="button" class="btn btn-outline-dark">Submit</button>
+      </div>
+    </section>
+    <!--End form area-->
+
+    <script
+      src="https://kit.fontawesome.com/4358f332a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
